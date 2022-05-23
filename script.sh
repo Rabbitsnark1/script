@@ -1,5 +1,5 @@
 #!/bin/bash
-for (( i=666; i >= 656; i-- ))
+for (( i=666; i > 656; i-- ))
 do
 rm -rf $i
 mkdir $i
